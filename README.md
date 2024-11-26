@@ -1,30 +1,29 @@
 # Goal of this Project
-This project leverages a VBA script to retrieve an entity's Xero trial balance through the API. 
+This project leverages a VBA script to retrieve an entity's Xero trial balance through the API.
+<br>
 
 Using a combination of VBA and Python scripts, the chart of accounts is matched with local files provided by the entity, and the documents are seamlessly uploaded to FYI.
 
+<br>
 
+---
 
- 
-# Blcks and Credits
+# Blocks and Credits
 This project was built in the VBA 7.1 programming language. It was made possible thanks to open-source modules/packages:
 
 - [vba-xero-api ](https://github.com/Muyoouu/vba-xero-api?tab=readme-ov-file#readme-top) by Muyoouu. 
-- [VBA-Web](https://github.com/VBA-tools/VBA-Web) by Tim Hall
-- [Chromium Automation with CDP for VBA ](https://github.com/longvh211/Chromium-Automation-with-CDP-for-VBA))by ChrisK23 & Long Vh
+- [VBA-Web](https://github.com/VBA-tools/VBA-Web) by Tim Hall.
+- [Chromium Automation with CDP for VBA ](https://github.com/longvh211/Chromium-Automation-with-CDP-for-VBA))by ChrisK23 & Long Vh.
+<br>
 
-[(back to top)](#goal-of-this-project)
-
-
+---
 # Workpaper Guidance
-## 1. Save Files
--  Save entity's File Under the Local File
--  Save Workpaper and Python Script in a Separate Folder
-  
+## 1. Download the File and Save in a Seperate Folder
+- Python: [Upload Document](https://github.com/JacintaQ/Xero-Report-and-FYI-Upload/blob/main/UploadDocument.ipynb)  
+- Excel: [Year Annual Workpapers](https://github.com/JacintaQ/Xero-Report-and-FYI-Upload/blob/main/YEAR%20Annual%20Workpapers.xlsm)
 
-[(back to top)](#goal-of-this-project)
 
-## 2. Generate Xero Report (Using Excel - Xero Report Generator)
+## 2. Generate Xero Report (Under Excel)
 
 ### 2.1 Log In
 1. Paste the Client ID into the appropriate field.
@@ -33,12 +32,16 @@ This project was built in the VBA 7.1 programming language. It was made possible
 
 ### 2.2 Generate Report and Update
 1. Click **Generate Report and Update**.
-2. Select the desired organization.
+2. Select the ending year and desired organization.
 3. The report will be generated and saved under the **Trial Balance Dump**.
-<img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Select Org.png" alt="Select Organization" title="Select Organization" width="700">
+<img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Select Org.png" alt="Select Organization" title="Select Organization" width="1000">
 
-<img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Choose Year.png" alt="Choose year of the Organization" title="Choose year of the Organization" width="700">
+<img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Choose Year.png" alt="Choose year of the Organization" title="Choose year of the Organization" width="1000">
 
+## 2. Save Files
+-  Save Workpaper and Python Script in a Separate Folder
+-  Save the entity's File Under the Local File
+<br>  
 ## 3. Match Chart of Accounts with File Path (Using Excel - File Path)
 
 ### 3.1 Set File Path
@@ -61,7 +64,8 @@ This project was built in the VBA 7.1 programming language. It was made possible
 
 ### 3.6 Close Excel
 - Proceed to the Python script for further steps.
-<img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Macth account with local files.png" alt="Match account with local files" title="Match account with local files" width="700">
+<img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Macth account with local files.png" alt="Match account with local files" title="Match account with local files" width="1000">
+
 ---
 
 ### 4. Upload Documents and Worksheet (Using Python)
