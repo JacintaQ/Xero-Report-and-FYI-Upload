@@ -18,17 +18,24 @@ This project was built in the VBA 7.1 programming language. It was made possible
 
 ---
 # Workpaper Guidance
-## 1. Download the File and Save in a Seperate Folder
+## 1. Download the Files and Save in a Seperate Folder
 - Python: [Upload Document](https://github.com/JacintaQ/Xero-Report-and-FYI-Upload/blob/main/UploadDocument.ipynb)  
 - Excel: [Year Annual Workpapers](https://github.com/JacintaQ/Xero-Report-and-FYI-Upload/blob/main/YEAR%20Annual%20Workpapers.xlsm)
+<br>
 
 
 ## 2. Generate Xero Report (Under Excel)
 
 ### 2.1 Log In
-1. Paste the Client ID into the appropriate field.
-2. Provide the credentials to log in to your Xero account.
-3. Connect to the organization that requires the report.
+1. Click **Log in**.
+2. Paste the Client ID and the credentials into the appropriate fields.
+4. Connect to the organization that requires the report.
+   - Steps creating the Xero API could be found: [Xero - Create API](https://github.com/JacintaQ/Xero-Report-and-FYI-Upload/blob/main/Xero%20-%20Create%20API.docx).
+
+<img src="https://github.com/JacintaQ/Xero-Report-and-FYI-Upload/blob/main/img/Enter%20Client%20ID.png" alt="Select Organization" title="Select Organization" width="1000">  
+<img src="https://github.com/JacintaQ/Xero-Report-and-FYI-Upload/blob/main/img/Client%20Secret.png" alt="Select Organization" title="Select Organization" width="1000">  
+
+<br>
 
 ### 2.2 Generate Report and Update
 1. Click **Generate Report and Update**.
@@ -37,15 +44,14 @@ This project was built in the VBA 7.1 programming language. It was made possible
 <img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Select Org.png" alt="Select Organization" title="Select Organization" width="1000">
 
 <img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Choose Year.png" alt="Choose year of the Organization" title="Choose year of the Organization" width="1000">
+<br>
 
-## 2. Save Files
--  Save Workpaper and Python Script in a Separate Folder
--  Save the entity's File Under the Local File
-<br>  
+
 ## 3. Match Chart of Accounts with File Path (Using Excel - File Path)
 
 ### 3.1 Set File Path
 - Paste the folder path storing the document into cell **B2**.
+-    Recommend seperate the documents with the workpapers to avoid conflicts.
 
 ### 3.2 Check File Existence
 1. Click the **Check if file exists** button.
@@ -66,7 +72,6 @@ This project was built in the VBA 7.1 programming language. It was made possible
 - Proceed to the Python script for further steps.
 <img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Macth account with local files.png" alt="Match account with local files" title="Match account with local files" width="1000">
 
----
 
 ### 4. Upload Documents and Worksheet (Using Python)
 
