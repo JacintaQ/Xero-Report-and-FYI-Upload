@@ -1,14 +1,14 @@
 # Workpaper Guidance
 
-## Xero Report and FYI Upload Process
 
-### 1. Save Files
-#### 1.1 Save Customer File Under G Drive
+
+# 1. Save Files
+### 1.1 Save Customer File Under G Drive
 - When exporting files from Content Snare:
   - Avoid using the original attachment filename.
   - This ensures better matching of accounts.
 
-#### 1.2 Save Workpapers in a Separate Folder
+### 1.2 Save Workpapers in a Separate Folder
 - Organize workpapers under a dedicated folder for streamlined access.
 
 ---
