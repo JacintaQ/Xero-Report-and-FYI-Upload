@@ -24,12 +24,12 @@ This project was built in the VBA 7.1 programming language. It was made possible
 <br>
 
 
-## 2. Generate Xero Report (Under Excel)
+## 2. Generate Xero Report (Excel)
 
 ### 2.1 Log In
 1. Click **Log in**.
 2. Paste the Client ID and the credentials into the appropriate fields.
-4. Connect to the organization that requires the report.
+3. Connect to the organization that requires the report.
    - Steps creating the Xero API could be found: [Xero - Create API](https://github.com/JacintaQ/Xero-Report-and-FYI-Upload/blob/main/Xero%20-%20Create%20API.docx).
 
 <img src="https://github.com/JacintaQ/Xero-Report-and-FYI-Upload/blob/main/img/Enter%20Client%20ID.png" alt="Select Organization" title="Select Organization" width="1000">  
@@ -37,8 +37,8 @@ This project was built in the VBA 7.1 programming language. It was made possible
 
 <br>
 
-### 2.2 Generate Report and Update
-1. Click **Generate Report and Update**.
+### 2.2 Generate Trial Balance Report
+1. Click **Generate Report**.
 2. Select the ending year and desired organization.
 3. The report will be generated and saved under the **Trial Balance Dump**.
 <img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Select Org.png" alt="Select Organization" title="Select Organization" width="1000">
@@ -47,7 +47,7 @@ This project was built in the VBA 7.1 programming language. It was made possible
 <br>
 
 
-## 3. Match Chart of Accounts with File Path (Using Excel - File Path)
+## 3. Match Chart of Accounts with File Path (Excel)
 
 ### 3.1 Set File Path
 - Paste the folder path storing the document into cell **B2**.
@@ -61,9 +61,9 @@ This project was built in the VBA 7.1 programming language. It was made possible
 - Under column **D**, specify the section requiring source documents.
 
 ### 3.4 Match Accounts
-1. Click the **Match accounts** button.
+1. Click **Check if file exists** again to find missing documents and manually match related accounts.
+2. Click the **Match accounts** button.
    - Documents are matched first by account number, then by chosen sections.
-2. Click **Check if file exists** again to find missing documents and manually match related accounts.
 
 ### 3.5 Adjust Columns
 - Use the **Hide/Unhide COL** button to manage visibility of columns **G**, **H**, and **J** for manual modifications.
@@ -73,7 +73,7 @@ This project was built in the VBA 7.1 programming language. It was made possible
 <img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Macth account with local files.png" alt="Match account with local files" title="Match account with local files" width="1000">
 
 
-### 4. Upload Documents and Worksheet (Using Python)
+### 4. Upload Documents and Worksheet (Python)
 
 #### 4.1 Run Python Script
 1. Click **Run All** in the script.
