@@ -70,7 +70,7 @@ This project was built in the VBA 7.1 programming language. It was made possible
 
 ### 3.6 Close Excel
 - Proceed to the Python script for further steps.
-<img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Macth account with local files.png" alt="Match account with local files" title="Match account with local files" width="1000">
+<img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Macth%20account%20with%20local%20files.png" alt="Match account with local files" title="Match account with local files" width="1000">
 
 
 ### 4. Upload Documents and Worksheet (Python)
