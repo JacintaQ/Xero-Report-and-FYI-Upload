@@ -13,16 +13,16 @@ This project was built in the VBA 7.1 programming language. It was made possible
 - [VBA-Web](https://github.com/VBA-tools/VBA-Web) by Tim Hall
 - [Chromium Automation with CDP for VBA ](https://github.com/longvh211/Chromium-Automation-with-CDP-for-VBA))by ChrisK23 & Long Vh
 
-
+[(back to top)](#goal-of-this-project)
 
 
 # Workpaper Guidance
 ## 1. Save Files
-### 1.1 Save entity's File Under the Local File
+-  Save entity's File Under the Local File
+-  Save Workpaper and Python Script in a Separate Folder
+  
 
-### 1.2 Save Workpaper and Python Script in a Separate Folder
-- Organize workpapers under a dedicated folder for streamlined access.
-
+[(back to top)](#goal-of-this-project)
 
 ## 2. Generate Xero Report (Using Excel - Xero Report Generator)
 
@@ -87,3 +87,5 @@ This project was built in the VBA 7.1 programming language. It was made possible
 ## Notes
 - Ensure proper folder organization and naming conventions for seamless integration with Xero and FYI.
 - Regularly check for missing documents and update the matching process as needed.
+
+[(back to top)](#goal-of-this-project)
