@@ -105,3 +105,12 @@ This project was built in the VBA 7.1 programming language. It was made possible
 <br>
 
 [(back to top)](#goal-of-this-project)
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<br>
+
+[(back to top)](#goal-of-this-project)
+
