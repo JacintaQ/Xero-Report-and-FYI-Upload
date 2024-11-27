@@ -53,10 +53,10 @@ This project was built in the VBA 7.1 programming language. It was made possible
 
 ### 3.1 Set File Path
 - Paste the folder path storing the document into cell **B2**.
--    Recommend seperate the documents with the workpapers to avoid conflicts.
+  - Recommend seperate the documents with the workpapers to avoid conflicts.
 
 ### 3.2 Check File Existence
-1. Click the **Check if file exists** button.
+- Click the **Check if file exists** button.
    - Subfolder name, file name, and file path will appear in columns **G** to **I**.
 
 ### 3.3 Select Related Sections
@@ -66,12 +66,7 @@ This project was built in the VBA 7.1 programming language. It was made possible
 1. Click **Check if file exists** again to find missing documents and manually match related accounts.
 2. Click the **Match accounts** button.
    - Documents are matched first by account number, then by chosen sections.
-
-### 3.5 Adjust Columns
-- Use the **Hide/Unhide COL** button to manage visibility of columns **G**, **H**, and **J** for manual modifications.
-
-### 3.6 Close Excel
-- Proceed to the Python script for further steps.
+     
 <img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Macth%20account%20with%20local%20files.png" alt="Match account with local files" title="Match account with local files" width="1000">
 
 <br>
