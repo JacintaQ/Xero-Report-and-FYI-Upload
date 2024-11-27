@@ -34,8 +34,9 @@ This project was built in the VBA 7.1 programming language. It was made possible
 
 <img src="https://github.com/JacintaQ/Xero-Report-and-FYI-Upload/blob/main/img/Enter%20Client%20ID.png" alt="Select Organization" title="Select Organization" width="1000">  
 <img src="https://github.com/JacintaQ/Xero-Report-and-FYI-Upload/blob/main/img/Client%20Secret.png" alt="Select Organization" title="Select Organization" width="1000">  
-
 <br>
+
+[(back to top)](#goal-of-this-project)
 
 ### 2.2 Generate Trial Balance Report
 1. Click **Generate Report**.
@@ -46,6 +47,7 @@ This project was built in the VBA 7.1 programming language. It was made possible
 <img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Choose Year.png" alt="Choose year of the Organization" title="Choose year of the Organization" width="1000">
 <br>
 
+[(back to top)](#goal-of-this-project)
 
 ## 3. Match Chart of Accounts with File Path (Excel)
 
@@ -71,7 +73,10 @@ This project was built in the VBA 7.1 programming language. It was made possible
 ### 3.6 Close Excel
 - Proceed to the Python script for further steps.
 <img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Macth%20account%20with%20local%20files.png" alt="Match account with local files" title="Match account with local files" width="1000">
+
 <br>
+
+[(back to top)](#goal-of-this-project)
 
 ### 4. Upload Documents and Worksheet (Python)
 
@@ -87,11 +92,14 @@ This project was built in the VBA 7.1 programming language. It was made possible
 #### 4.3 Access Worksheet in FYI
 - Click the generated link to navigate to the corresponding worksheet in FYI.
 
-<img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Upload in FYI.png" alt="Upload in FYI" title="Upload in FYI" width="700">
+<img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Upload in FYI.png" alt="Upload in FYI" title="Upload in FYI" width="1000">
 <br>
+
+[(back to top)](#goal-of-this-project)
+
 ### 5. Edit in FYI
 - Links to related documents will be auto-generated when selecting the Xero account.
-<img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Preview Link.png" alt="Preview Link" title="Preview Link" width="700">
+<img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Preview Link.png" alt="Preview Link" title="Preview Link" width="1000">
 <br>
 
 [(back to top)](#goal-of-this-project)
