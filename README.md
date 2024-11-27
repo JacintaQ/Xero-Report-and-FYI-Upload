@@ -93,6 +93,7 @@ This project was built in the VBA 7.1 programming language. It was made possible
 - Click the generated link to navigate to the corresponding worksheet in FYI.
 
 <img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Upload in FYI.png" alt="Upload in FYI" title="Upload in FYI" width="1000">
+
 <br>
 
 [(back to top)](#goal-of-this-project)
@@ -100,6 +101,7 @@ This project was built in the VBA 7.1 programming language. It was made possible
 ### 5. Edit in FYI
 - Links to related documents will be auto-generated when selecting the Xero account.
 <img src="https://raw.githubusercontent.com/JacintaQ/Xero-Report-and-FYI-Upload/main/img/Preview Link.png" alt="Preview Link" title="Preview Link" width="1000">
+
 <br>
 
 [(back to top)](#goal-of-this-project)
