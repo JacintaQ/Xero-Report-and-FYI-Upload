@@ -17,11 +17,29 @@ This project was built in the VBA 7.1 programming language. It was made possible
 <br>
 
 ---
+
+# Watch My Video on Automating Workflows
+
+You can watch the project demo video on YouTube by clicking the image below:
+
+<a href="https://youtu.be/F2kHzqqDH5E" target="_blank">
+    <img src="https://img.youtube.com/vi/F2kHzqqDH5E/maxresdefault.jpg" alt="Watch the video" width="800"/>
+</a>
+
+<br><br>
+[(back to top)](#goal-of-this-project)
+
+
+---
+
 # Workpaper Guidance
+
 ## 1. Download the Files and Save in a Seperate Folder
 - Python: [Upload Document](https://github.com/JacintaQ/Xero-Report-and-FYI-Upload/blob/main/UploadDocument.ipynb)  
 - Excel: [Year Annual Workpapers](https://github.com/JacintaQ/Xero-Report-and-FYI-Upload/blob/main/YEAR%20Annual%20Workpapers.xlsm)
 <br>
+
+[(back to top)](#goal-of-this-project)
 
 
 ## 2. Generate Xero Report (Excel)
